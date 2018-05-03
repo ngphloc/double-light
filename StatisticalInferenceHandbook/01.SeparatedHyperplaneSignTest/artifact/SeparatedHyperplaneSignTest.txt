@@ -1,0 +1,51 @@
+m=2;
+x[1]={20,55};
+x[2]={35,10};
+x[0]={15,30};
+y[1]=y1;
+y[2]=y2;
+l1=Expand[Sum[y[i],{i,m}]-3/2*Sum[Sum[y[i]y[j]Abs[(x[i]-x[0]).(x[j]-x[0])],{j,m}],{i,m}]]
+(* l1 = y1 - 975y1^2 + y2 - 1200y1y2 - 1200y2^2 *)
+l2=Expand[Sum[y[i],{i,m}]-1/2*Sum[Sum[y[i]y[j]Abs[(x[i]-x[0]).(x[j]-x[0])],{j,m}],{i,m}]]
+(* l2 = y1 - 325y1^2 + y2 - 400y1y2 - 400y2^2 *)
+
+Plot3D[{l2,l1},{y1,-5,5},{y2,-5,5}]
+
+D[l1,y1]
+D[l1,y2]
+D[l2,y1]
+D[l2,y2]
+Solve[D[l1,y1]==0&&D[l1,y2]==0,{y1,y2}]
+Solve[D[l2,y1]==0&&D[l2,y2]==0,{y1,y2}]
+s1={1/2700,1/4320};
+s2={1/900,1/1440};
+
+z=Mean[{s1,s2}]
+(*z={1/1350, 1/2160}*)
+w={w1,w2}
+sign2[i_]:=(w.(x[i]-x[0]))/Abs[w.(x[i]-x[0])];
+Expand[w-Sum[z[[i]]sign2[i](x[i]-x[0]),{i,m}]]
+
+sign[1]=1;
+sign[2]=-1;
+formulas:=w-Sum[z[[i]]sign[i](x[i]-x[0]),{i,m}];
+formulas
+(* {1/180 + w1, -1/36 + w2} *)
+
+(*NSolve[formulas[[1]]==0&&formulas[[2]]==0,{w1,w2}]*)
+w1=-0.00555556
+w2=0.0277778
+u=t
+v=Expand[({w1,w2}.x[0]-w1*t)/w2]
+(*y=27 + 0.2t*)
+Image[ParametricPlot[{u,v},{t,-10,150}]]
+
+xx[i_,j_]:=(x[i]-x[0]).(x[j]-x[0])
+l=Expand[1/2*Sum[Sum[y[i]y[j]sign[i]sign[j]xx[i,j],{j,m}],{i,m}]+Sum[y[i],{i,m}]-Sum[Sum[y[i]y[j]Abs[xx[i,j]],{j,m}],{i,m}]]
+(* l = y1 - 325y1^2 + y2 - 400y1y2 - 400y2^2 *)
+Plot3D[{l},{y1,-5,5},{y2,-5,5}]
+Plot3D[{l,l1},{y1,-5,5},{y2,-5,5}]
+
+w.(x[1]-x[0])
+w.(x[2]-x[0])
+

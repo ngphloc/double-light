@@ -1,0 +1,127 @@
+editor@labome.com
+Submitting the paper "An Advanced Approach of Local Counter Synchronization"
+
+Dear sir / madam
+I am very happy to propose an novel method to enhance timestamp ordering algorithm in distributed concurrency control in the submitted paper "An Advanced Approach of Local Counter Synchronization in Timestamp Ordering Algorithm in Distributed Concurrency Control". Following is abstract of this paper:
+
+"Concurrency control is the problem that database management system (DBMS) meets with difficulties, especially distributed DBMS. There are two main methods of concurrency control such as locking-based and timestamp-based. Each method gets involved in its own disadvantages but locking-based approach is often realized in most distributed DBMS because its feasibility and strictness lessen danger in distributed environment. Otherwise, timestamp ordering algorithm is merely implemented in central DBMS due to the issue of local counter synchronization among sites in distributed environment. The common solution is broadcasting the message about the change of local counter (at one site) over distributed network so that all remaining sites “know” to update their own counters. However this solution raises some disadvantages of low performance. So I propose an advanced approach to overcome such disadvantages by giving out another measure so-called active number that is responsible for harmonizing local counters among distributed sites. Moreover I propose a method to apply minimum spanning tree into reduce cost of broadcasting messages over distributed network."
+
+Best regards
+Loc Nguyen
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+editor@labome.com
+Submitting the paper "Estimating Peak Bone Mineral Density by Maximum Distribution"
+
+Dear sir / madam
+I am very happy to propose an novel method to estimate peak bone mineral density in the submitted paper "Estimating Peak Bone Mineral Density in Osteoporosis Diagnosis by Maximum Distribution". Following is abstract of this paper:
+
+"The T-score is very important to diagnosis of osteoporosis and its formula is calculated from two parameters such as peak bone mineral density (pBMD) and variance of pBMD. This research proposes a new method to estimate these parameters with the recognition that pBMD conforms maximum distributions, for example, Gumbel distribution. Firstly, our method models bone mineral density (BMD) data collected in research as a series of maximum values and such values are assumed to obey Gumbel distribution. Secondly, we apply moment technique to estimate the mean and variance of Gumbel distribution with regard to the series of maximum values. These mean and variance are adjusted to become the best estimated pBMD and variance of pBMD. There is no normality assumption in this research because pBMD is essentially the extreme value with low frequency in population and so the estimate of pBMD will be more accurate if we take full advantage of specific characteristics of Gumbel maximum distribution."
+
+Best regards
+Loc Nguyen
+
+
+editor@labome.com
+Submitting the paper "A new aware-context collaborative filtering approach"
+
+Dear sir / madam
+I am very happy to propose an novel method for aware-context collaborative filtering in the submitted paper "A new aware-context collaborative filtering approach by applying multivariate logistic regression model into general user pattern". Following is abstract of this paper:
+
+Traditional collaborative filtering (CF) does not take into account contextual factors such as time, place, companion, environment, etc which are useful information around users or relevant to recommender application. So recent aware-context CF takes advantages of such information in order to improve the quality of recommendation. There are three main aware-context approaches: contextual pre-filtering, contextual post-filtering and contextual modeling. Each approach has individual strong points and drawbacks but there is a requirement of steady and fast inference model which supports to aware-context recommendation process.
+This paper proposes a new approach which discovers multivariate logistic regression model by mining both traditional rating data and contextual data. Logistic model is optimal inference model in response to the binary question “whether or not a user prefers a list of recommendations with regard to contextual condition”. Consequently, such regression model is used as a filter to remove irrelevant items from recommendations. The final list is the best recommendations to be given to users under contextual information. Moreover the searching items space of logistic model is reduced to smaller set of items so-called general user pattern (GUP). GUP supports logistic model to be faster in real-time response.
+
+Best regards
+Loc Nguyen
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Hanqing Xie <han@labome.com>;
+September 7, 2014
+Ask for recommendations
+
+Dear Dr.     Nguyen,
+
+Thanks for your manuscript.
+
+Can you ask Dr. Ho-Pham to email me her recommendation for publication of this manuscript?
+
+Can you ask another one of your friends/colleagues/experts with published expertise on the topic to critique and recommend the manuscript?  You should contact him/her directly.  He/she should email the recommendation directly to us, along with a list of his/her publications.
+
+We will not consider this manuscript without such recommendations.
+
+Please edit the article with a correct reference format.  see http://www.labome.org/
+
+Best regards,
+
+Hanqing Xie, Ph. D.
+han@labome.com
+6095582006
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+- Inventing works in computer science, statistics, and mathematics.
+- Programming software
+- Reviewing research articles
+
+Research, design, implement and test the project “A framework of e-commercial recommendation solutions” at Sunflower Soft Company. Project link is https://sites.google.com/site/ngphloc/st/products/hudup.
+
+Research, design, implement and test the project “A framework of estimating fetus weight and age” at Sunflower Soft Company. Project link: https://sites.google.com/site/ngphloc/st/products/phoebe.
+
+1. [Nguyen, Do 2008]. Loc Nguyen, Phung Do. Learner Model in Adaptive Learning. World Academy of Science, Engineering and Technology, Vol:2 2008-09-26. Available from http://www.waset.org/publications/9006.
+
+2. [Nguyen, Do 2009]. Loc Nguyen, Phung Do. Combination of Bayesian Network and Overlay Model in User Modeling. International Journal of Emerging Technologies in Learning (iJET), Vol. 4, No. 4, pages 41-45. Available from http://online-journals.org/i-jet/article/view/684.
+
+3. [Nguyen, Do 2009]. Loc Nguyen, Phung Do. Evolution of parameters in Bayesian Overlay Model. Proceedings of The 2009 International Conference on Artificial Intelligence (IC-AI’09), pages 324-329, CSREA Press USA. The 2009 World Congress in Computer Science, Computer Engineering, and Applied Computing (WORLDCOMP’09), Monte Carlo Resort, Las Vegas, Nevada, USA, July 13-16, 2009. Conference link is http://www.world-academy-of-science.org/worldcomp09/ws/conferences/icai09.
+
+4. [Nguyen, Do 2009]. Loc Nguyen, Phung Do. Learning Concept Recommendation based on Sequential Pattern Mining. Proceedings of The 2009 Third International Digital Ecosystems and Technologies Conference (IEEE-DEST 2009), pages 66-71, IEEE Publisher. Istanbul, Turkey, May 31 - June 3, 2009. Available from http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5276694.
+
+5. [Nguyen 2009]. Loc Nguyen. State of the Art of Adaptive Learning. Proceedings of The 2009 International Conference on e-Learning, e-Business, Enterprise Information Systems, and e-Government (EEE 2009), pages 126-133, CSREA Press USA. The 2009 World Congress in Computer Science, Computer Engineering, and Applied Computing (WORLDCOMP’09). Monte Carlo Resort, Las Vegas, Nevada, USA, July 13-16, 2009. Conference link is http://www.world-academy-of-science.org/worldcomp09/ws/conferences/conferences/eee09.
+
+6. [Nguyen 2009]. Loc Nguyen. A Proposal Discovering User Interests by Support Vector Machine and Decision Tree on Document Classification. The International Workshop on Social Networks Mining and Analysis for Business Applications (SNMABA2009) in conjunction with The 2009 IEEE International Conference on Social Computing (SocialCom). Published in Computational International Conference on Science and Engineering 2009 (CSE ’09), volume 4, pages 809-814, IEEE Publisher. Vancouver, Canada, August 29-31, 2009. Available from http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5283280.
+
+7. [Nguyen 2009]. Loc Nguyen. ZEBRA: A new User Modeling System for Triangular Model of Learners’ Characteristics. Artificial Intelligence in Education (AIED 2009) Workshops Proceedings Volume 7, The Learning Design Workshop on “Enabling creative learning design: how HCI, User Modeling and Human Factors help”, pages 42-51. Thistle Hotel, Brighton, UK, July 6-10, 2009. Available from http://www.dcs.bbk.ac.uk/~gmagoulas/LD_WorkshopsProceedings-web.pdf#page=46.
+
+8. [Nguyen 2009]. Loc Nguyen. Incorporating Bayesian Inference into Adaptation Rules in AHA architecture. Proceedings of 12th International Conference on Interactive Computer aided Learning (ICL2009). Villach, Austria, September 23-25, 2009. Published by Kassel University Press, Kassel, Germany. Conference proceedings link is http://www.icl-conference.org/dl/proceedings/2009.
+
+9. [Nguyen 2010]. Loc Nguyen. Overview of The System of Acupuncture Spots in Oriental Medicine based on Oriental Philosophy (Hệ Kinh Lạc). Loc Nguyen’s website https://sites.google.com/site/ngphloc.
+
+10. [Nguyen 2011]. Loc Nguyen. The method of seven qigong exercises of archery simulation (Thất tiễn pháp). Nguyen Hoai Van’s website http://nguyenhoaivan.com/default.asp?do=news_detail&id=798&kind=7.
+
+11. [Nguyen 2013]. Loc Nguyen. A New Approach for Modeling and Discovering Learning Styles by Using Hidden Markov Model. Global Journal of Human Social Science: G - Linguistics & Education, Volume 13, Issue 4 Version 1.0. Global Journals Inc. (U.S.) © Copyright 2013. Available from https://globaljournals.org/GJHSS_Volume13/1-A-New-Approach-for-Modeling.pdf.
+
+12. [Nguyen 2013]. Loc Nguyen. The Bayesian approach and suggested stopping criterion in Computerized Adaptive Testing. International Journal of Research in Engineering and Technology (IJRET), vol. 2, No. 1, 2013. Planetary Scientific Research Center © Copyright 2013. Available from http://psrcentre.org/images/extraimages/IJRET021007.pdf.
+
+13. [Nguyen 2013]. Loc Nguyen. Overview of Bayesian Network. Science Journal Of Mathematics and Statistics (SJMS), Volume 2013 (2013). Science Journal Publication © Copyright 2013. Available from http://www.sjpub.org/sjms/sjms-105.pdf.
+
+14. [Nguyen, Ho 2014]. Loc Nguyen, Hang Ho. A framework of fetal age and weight estimation. Journal of Gynecology and Obstetrics (JGO), Vol. 2, No. 2, 2014, pages 20-25. Science Publishing Group © Copyright 2014. Available from http://article.sciencepublishinggroup.com/pdf/10.11648.j.jgo.20140202.13.pdf.
+
+15. [Nguyen 2014]. Loc Nguyen. A New Algorithm for Modeling and Inferring User’s Knowledge by Using Dynamic Bayesian Network. Statistics Research Letters (SRL), Volume 3 Issue 2, May 2014. Science and Engineering Publishing Company © Copyright 2014. Available from http://www.srl-journal.org/Download.aspx?ID=6933.
+
+16. [Nguyen 2014]. Loc Nguyen. User Model Clustering. Journal of Data Analysis and Information Processing (JDAIP). Scientific Research Publishing © Copyright 2014. Available from http://www.scirp.org/journal/PaperDownload.aspx?paperID=46376.
+
+17. [Nguyen 2014]. Loc Nguyen. A User Modeling System for Adaptive Learning. Standard Scientific Research and Essays (SSRE). Standard Research Journals © Copyright 2014. Available from http://standresjournals.org/journals/SSRE/Pdf/2014/april/Loc%20pdf.pdf.
+
+18. [Nguyen 2014]. Loc Nguyen. Specifying Prior Probabilities in Bayesian Network by Maximum Likelihood Estimation method. Sylwan Journal © Copyright 2014 (http://sylwan.ibles.org).
+
+19. [Nguyen 2014]. Loc Nguyen. Theorem of logarithm expectation and its application to prove sample correlation coefficient as unbiased estimate. Journal of Mathematics and System Science, Volume 4, Number 9, September 2014, pages 605-608. David Publishing Company, USA © Copyright 2014. Available from http://davidpublishing.com/journals_info.asp?jId=2081.
+
+20. [Nguyen 2014]. Loc Nguyen. A Maximum Likelihood Mixture Approach for Multivariate Hypothesis Testing in case of Incomplete Data. Journal of Mathematics and System Science. David Publishing Company, USA © Copyright 2014.
+
+21. [Nguyen 2014]. Loc Nguyen. A new method to determine separated hyper-plane for non-parametric sign test in multivariate data. Journal of Mathematics and System Science. David Publishing Company, USA © Copyright 2014.
+
+22. [Nguyen 2014]. Loc Nguyen. Nonparametric Hypothesis Testing Report. Science Journal Of Mathematics and Statistics (SJMS). Science Journal Publication © Copyright 2014.
+
+23. [Nguyen 2014]. Loc Nguyen. Evaluating Adaptive Learning Model. The 17th International Conference on Interactive Computer aided Learning (ICL2014), The 2014 World Engineering Education Forum, Engineering Education For A Global Community. Dubai International Convention and Exhibition Centre, Dubai, UAE, December 3-6, 2014. Published in Interactive Collaborative Learning (ICL), 2014 International Conference on, pages 818-822, IEEE Publisher. Available from http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7017878.
+
+24. [Nguyen, Ho 2014]. Loc Nguyen, Hang Ho. A fast computational formula for Kappa coefficient. Science Journal of Clinical Medicine, Vol. 4, No. 1, 2015, pages 1-3. Science Publishing Group © Copyright 2015. Available from http://www.sciencepublishinggroup.com/journal/paperinfo.aspx?journalid=159&doi=10.11648/j.sjcm.20150401.11.
+
+25. [Nguyen, Ho 2014]. Loc Nguyen, Hang Ho. A proposed method for choice of sample size without pre-defining error. Journal of Data Analysis and Information Processing (JDAIP). Scientific Research Publishing © Copyright 2014.
+
+26. [Nguyen 2014]. Loc Nguyen. A New Aware-context Collaborative Filtering Approach by Applying Multivariate Logistic Regression Model into General User Pattern. Journal of Data Analysis and Information Processing (JDAIP). Scientific Research Publishing © Copyright 2014.
+
+27. [Nguyen 2014]. Loc Nguyen. An Advanced Approach of Local Counter Synchronization in Timestamp Ordering Algorithm in Distributed Concurrency Control. Open Access Library Journal © Copyright 2014.
+
+28. [Nguyen 2014]. Loc Nguyen. Feasible length of Taylor polynomial on given interval and application to find the number of roots of equation. International Journal of Mathematical Analysis and Applications. American Association for Science and Technology © Copyright 2014.
+
+29. [Nguyen 2014]. Loc Nguyen. Improving analytic function approximation by minimizing square error of Taylor polynomial. International Journal of Mathematical Analysis and Applications, Vol. 1, No. 4, October 2014, pages 63-67. American Association for Science and Technology © Copyright 2014. Available from http://www.aascit.org/journal/archive2?journalId=921&paperId=1016.
+
+30. [Nguyen 2009]. Discovering User Interests by Document Classification. In I-Hsien Ting, Hui-Ju Wu, and Tien-Hwa Ho (Eds.), Mining and Analyzing Social Networks (Vol. 288 In series “Studies in Computational Intelligence”, pp. 139-159).

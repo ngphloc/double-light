@@ -1,0 +1,84 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -87.966875081499
+xMax = 94.816754698501
+xTickUnit = 10
+xGridUnit = 10
+yMin = -57.8193114633929
+yMax = 67.5180346766072
+yTickUnit = 10
+yGridUnit = 10
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+
+[Label1]
+Placement = 0
+Pos = 5.24973478134626;34.5449768965121
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fprq6\\fcharset161{\\*\\fname Times New Roman;}Times New Roman Greek;}{\\f1\\fnil\\fprq6\\fcharset0 Times New Roman;}{\\f2\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\i\\f0\\fs22\\'ec\\sub\\i0\\f1 0\\nosupersub =(15,30)\\f2\\fs24\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label2]
+Placement = 0
+Pos = 22.352238750217;11.750376200625
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fprq6\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\i\\f0\\fs22 X\\sub\\i0 2\\nosupersub =(35,10)\\f1\\fs24\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label3]
+Placement = 0
+Pos = 7.68279474513993;55.6000619850066
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fprq6\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\i\\f0\\fs24 X\\sub\\i0 1\\nosupersub =(20,55)\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label4]
+Placement = 0
+Pos = 18.7836308299486;34.1477111401254
+Rotation = 8
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fprq6\\fcharset0 Times New Roman;}{\\f1\\fnil Tahoma;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\b\\i\\f0\\fs28 y \\i0 = 27 + 0.2\\i x\\b0\\i0\\f1\\fs20\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[PointSeries1]
+FillColor = clBlack
+LineColor = clBlack
+Size = 6
+Style = 0
+LabelPosition = 1
+PointCount = 2
+Points = 20,55;35,10;
+LegendText = Sample Points
+
+[PointSeries2]
+FillColor = clWhite
+LineColor = clBlack
+Size = 6
+Style = 0
+LabelPosition = 1
+PointCount = 1
+Points = 15,30;
+LegendText = Median
+
+[Func1]
+FuncType = 0
+y = 27+0.2x
+Color = clBlack
+Size = 2
+
+[Data]
+TextLabelCount = 4
+FuncCount = 1
+PointSeriesCount = 2
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

@@ -1,0 +1,7 @@
+David Publishing Company website: http://www.davidpublisher.org
+    username: ng_phloc
+    password: maiphuong
+
+David Publishing Company website (old): http://davidpublishing.org, http://davidpublishing.com
+    username: ng_phloc
+    password: maiphuong

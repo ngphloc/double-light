@@ -1,0 +1,38 @@
+m=5;
+n=10;
+significant=0.025;
+
+(* Simulated sample with mean 1 and deviation 0.1 *)
+x=RandomVariate[NormalDistribution[1,0.1],m]
+
+(* Producing 10 new maximal observations by bootstrap technique *)
+yy=Table[RandomChoice[x,m],{i,n}]
+y=Map[Max,yy]
+
+x={0.972234,1.06506,1.08428,1.00824,1.14306}
+
+yy={{1.08428,0.972234,1.08428,1.14306,1.14306},{1.08428,0.972234,1.14306,0.972234,0.972234},{0.972234,0.972234,1.06506,1.06506,1.06506},{1.08428,
+0.972234,1.08428,1.14306,1.06506},{1.06506,1.08428,1.00824,1.00824,1.08428},{1.14306,1.00824,0.972234,0.972234,1.06506},{1.00824,1.08428,
+1.14306,0.972234,1.00824},{1.00824,0.972234,1.06506,1.00824,1.00824},{1.08428,0.972234,1.08428,1.14306,1.14306},{1.14306,1.14306,1.06506,
+0.972234,1.14306}}
+
+y={1.14306,1.14306,1.06506,1.14306,1.08428,1.14306,1.14306,1.06506,1.14306,1.14306}
+
+(* Estimating parameters such as alpha and beta *)
+ymean=Mean[y]
+beta=Sqrt[6]/((n-1)Pi)(Sum[(y[[i]])^2,{i,n}]-n*(ymean^2))
+alpha=ymean-EulerGamma*beta
+
+(* Estimating mean and variance *)
+mu=alpha+EulerGamma*beta
+var=beta*Pi/Sqrt[6]
+Sqrt[var]
+
+(* Percentile point at significant level 0.025 *)
+lowerpercentile=alpha-beta*Log[-Log[significant]]
+upperpercentile=alpha-beta*Log[-Log[1-significant]]
+g[z_]:=1/beta*Exp[-(z-alpha)/beta]*Exp[-Exp[-(z-alpha)/beta]]
+g[z]
+
+(* Plotting the Gumbel density function *)
+Image[Plot[g[z],{z,-10,10}]]
